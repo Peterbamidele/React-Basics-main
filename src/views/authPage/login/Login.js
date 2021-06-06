@@ -10,10 +10,7 @@ import { useHistory } from "react-router"
 
 const Login =() => {
 
-    let data = {
-        // username: '',
-        // password: ''
-}
+    let data = {}
     const getData = (key, value) =>{
         data[key] = value
     }
